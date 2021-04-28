@@ -55,7 +55,7 @@
   
   $akakiy = new Person("Акакий",89);
   $afdotya = new Person("Афдотья",85);
-  $oleg = new Person("Олег",34,$petro);
+  $oleg = new Person("Олег",34,$akakiy);
   $olga = new Person("Ольга",34,$afdotya);
   $igor = new Person("Игорь",10,$olga,$oleg);
   echo $igor->getInfo();
